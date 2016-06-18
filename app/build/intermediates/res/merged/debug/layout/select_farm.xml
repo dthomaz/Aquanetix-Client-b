@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/common_header" />
+	
+    <ScrollView 
+        android:layout_width="match_parent"        
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:background="#2F2F2F" >
+        
+        <RadioGroup
+            android:id="@+id/select_farms_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        
+    </ScrollView>
+        
+</RelativeLayout>

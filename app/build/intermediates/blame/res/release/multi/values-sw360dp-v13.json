@@ -1,0 +1,482 @@
+[
+    {
+        "outputFile": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/release/values-sw360dp-v13/values-sw360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1549,
+                        "endColumn": 40,
+                        "endOffset": 1585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 45,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 45,
+                        "endOffset": 1213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 142,
+                    "endColumn": 42,
+                    "endOffset": 180
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 650,
+                        "endColumn": 42,
+                        "endOffset": 688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 185,
+                    "endColumn": 42,
+                    "endOffset": 223
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1421,
+                        "endColumn": 42,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 228,
+                    "endColumn": 43,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 43,
+                        "endOffset": 1416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 272,
+                    "endColumn": 42,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1334,
+                        "endColumn": 42,
+                        "endOffset": 1372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 47,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1635,
+                        "endColumn": 47,
+                        "endOffset": 1678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 363,
+                    "endColumn": 48,
+                    "endOffset": 407
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1728,
+                        "endColumn": 48,
+                        "endOffset": 1772
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 412,
+                    "endColumn": 45,
+                    "endOffset": 453
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 45,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 458,
+                    "endColumn": 43,
+                    "endOffset": 497
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 43,
+                        "endOffset": 302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 502,
+                    "endColumn": 42,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 559,
+                        "endColumn": 42,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 39,
+                    "endOffset": 580
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 39,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 585,
+                    "endColumn": 44,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1590,
+                        "endColumn": 44,
+                        "endOffset": 1630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 44,
+                    "endOffset": 670
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 1777,
+                        "endColumn": 44,
+                        "endOffset": 1817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 675,
+                    "endColumn": 44,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1683,
+                        "endColumn": 44,
+                        "endOffset": 1723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endColumn": 36,
+                    "endOffset": 752
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 737,
+                        "endColumn": 36,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 757,
+                    "endColumn": 37,
+                    "endOffset": 790
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1030,
+                        "endColumn": 37,
+                        "endOffset": 1063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 795,
+                    "endColumn": 43,
+                    "endOffset": 834
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 693,
+                        "endColumn": 43,
+                        "endOffset": 732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 839,
+                    "endColumn": 41,
+                    "endOffset": 876
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 472,
+                        "endColumn": 41,
+                        "endOffset": 509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 881,
+                    "endColumn": 40,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 803,
+                        "endColumn": 40,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endColumn": 40,
+                    "endOffset": 958
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 844,
+                        "endColumn": 40,
+                        "endOffset": 880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 963,
+                    "endColumn": 40,
+                    "endOffset": 999
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 885,
+                        "endColumn": 40,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1004,
+                    "endColumn": 40,
+                    "endOffset": 1040
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 926,
+                        "endColumn": 40,
+                        "endOffset": 962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1045,
+                    "endColumn": 40,
+                    "endOffset": 1081
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 967,
+                        "endColumn": 40,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1086,
+                    "endColumn": 40,
+                    "endOffset": 1122
+                },
+                "from": {
+                    "file": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1253,
+                        "endColumn": 40,
+                        "endOffset": 1289
+                    }
+                }
+            }
+        ]
+    }
+]

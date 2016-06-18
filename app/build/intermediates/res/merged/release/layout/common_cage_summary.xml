@@ -1,0 +1,91 @@
+<!-- Used both in cage-activitie and cage-list -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pressable_border_left" >
+    
+    <TextView
+        android:id="@+id/textCageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1FADFF"
+        android:gravity="center"
+        android:textSize="@dimen/textSize3"
+        android:layout_weight="1.0"
+        android:text="@string/lorem" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+        
+	    <ImageView
+	        android:id="@+id/imageFeedDone"
+	        style="@style/stretchedImage"
+	        android:layout_width="@dimen/roundIcons"
+	        android:layout_height="@dimen/roundIcons"
+	        android:layout_margin="5dp"
+	        android:src="@drawable/feed_round_red" />
+        <ImageView
+	        android:id="@+id/imageMortalitiesDone"
+	        style="@style/stretchedImage"
+            android:layout_width="@dimen/roundIcons"
+            android:layout_height="@dimen/roundIcons"
+            android:layout_margin="5dp"
+            android:src="@drawable/mortality_round_red" />
+        <ImageView
+	        android:id="@+id/imageNetDone"
+            style="@style/stretchedImage"
+            android:layout_width="@dimen/roundIcons"
+            android:layout_height="@dimen/roundIcons"
+            android:layout_margin="5dp"
+            android:src="@drawable/net_round_red" />
+        <ImageView
+	        android:id="@+id/imageHealthDone"
+            style="@style/stretchedImage"
+            android:layout_width="@dimen/roundIcons"
+            android:layout_height="@dimen/roundIcons"
+            android:layout_margin="5dp"
+            android:src="@drawable/health_round_red" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textFeedName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0ECE0"
+        android:gravity="center"
+        android:textSize="@dimen/textSize2"
+        android:singleLine="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.0"
+        android:text="@string/lorem" />
+    
+    <TextView
+        android:id="@+id/textFeedKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FDC371"
+        android:gravity="center"
+        android:textSize="@dimen/textSize2"
+        android:layout_weight="1.0"
+        android:text="@string/lorem" />
+    
+    <TextView
+        android:id="@+id/textAllocatedTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="@dimen/textSize2"
+        android:singleLine="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.0"
+        android:text="@string/lorem" />
+
+</LinearLayout>

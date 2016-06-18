@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash -->
+    <string name="splash.loading">Φόρτωση&#8230;</string>
+    <string name="splash.no_internet">Πρόβλημα σύνδεσης στο ίντερνετ</string>
+    <string name="splash.user_error">Πρόβλημα στη λήψη των χρηστών</string>
+    <string name="splash.cage_error">Πρόβλημα στη λήψη των ταϊσμάτων</string>
+    <string name="splash.try_again">Προσπαθήστε ξανά</string>
+    
+    <!-- Login -->
+    <string name="login.usernname">Όνομα χρήστη</string>
+    <string name="login.password">Κωδικός πρόσβασης</string>
+    <string name="login.wait.title">Παρακαλώ περιμένετε</string>
+    <string name="login.wait.message">Αποστολή δεδομένων&#8230;</string>
+    <string name="login.error">Αποτυχία ταυτοποίησης</string>
+    <string name="login.error.server">Αποτυχία ταυτοποίησης</string>
+    
+    <!-- Pin -->
+    <string name="pin.enter">Εισαγωγή PIN</string>
+    <string name="pin.wrong">Λάθος PIN. Προσπαθήστε ξανά.</string>
+    <string name="pin.change.no_user">Επιλέξτε χρήστη</string>
+    <string name="pin.change.no_internet">Δεν υπάρχει δίκτυο.</string>
+    <string name="pin.change.first">Εισαγωγή νέου PIN</string>
+    <string name="pin.change.second">Εισαγωγή νέου PIN ξανά</string>
+    <string name="pin.change.no_match">Οι κωδικοί PIN είναι διαφορετικοί. Ξαναπροσπαθήστε.</string>
+    <string name="pin.change.start">Αποστολή νέου PIN</string>
+    <string name="pin.change.done">Το PIN σας άλλαξε</string>
+    <string name="pin.change.failed">Αποτυχία αλλαγής PIN</string>
+     
+    <!-- Synchronise -->
+    <string name="sync.now">Συγχρονισμός</string>
+    <string name="sync.pending">αποστολές σε εκκρεμότητα.</string>
+    <string name="sync.started">Ξεκίνησησε ο συχρονισμός</string>
+    <string name="sync.details">Log details&#8230;</string>
+    <string name="sync.no_internet">Δεν υπάρχει δίκτυο</string>
+    <string name="sync.logged">The list of requests has been sent to Android log.</string>
+    
+    <!-- Settings menu -->
+    <string-array name="settings_options">
+        <item>Αλλαγή PIN</item>
+        <item>Επιλογή μονάδας</item>
+        <item>Ακύρωση</item>
+    </string-array>
+
+    <!-- Home menu -->
+    <string name="userlist.title">Επιλογή χρήστη</string>
+    <string name="feedlist.title">Επιλογή Τροφής</string>
+    
+    <!-- Home menu -->
+    <string name="home.environmental">ΜΕΤΡΗΣΕΙΣ</string> <!-- ENVIRONMENTAL MEASUREMENTS -->
+    <string name="home.cages">ΚΛΩΒΟΙ</string>
+    
+    <!-- Environmental-measurements menu -->
+    <string name="environment.temperature">ΘΕΡΜΟΚΡΑΣΙΑ</string>
+    <string name="environment.oxygen">ΟΞΥΓΟΝΟ</string>
+    
+    <!-- Cage menu -->
+    <string name="cage.feed">ΤAΪΣΜΑ</string>
+    <string name="cage.mortalities">ΘΝΗΣΙΜΟΤΗΤΕΣ</string>
+    <string name="cage.net">ΔΙΧΤΥΑ</string>
+    <string name="cage.environmental">ΜΕΤΡΗΣΕΙΣ</string>
+    <string name="cage.health">ΥΓΕΙΑ</string>
+    
+    <!-- Enter oxygen-temperature -->
+    <string name="enter.oxygen_title">ΟΞΥΓΟΝΟ ΝΕΡΟΥ</string>
+    <string name="enter.oxygen_units">mg/L</string>
+    <string name="enter.temperature_title">ΘΕΡΜΟΚΡΑΣΙΑ ΝΕΡΟΥ</string>
+    <string name="enter.temperature_units">&#x2103;</string>
+    
+    <!-- Net health -->
+    <string name="net_health.subheader">ΚΑΤΑΣΤΑΣΗ ΔΙΧΤΥΩΝ</string>
+    <string name="net_health.non">ΚΑΛΗ</string>
+    <string name="net_health.moderate">ΜΕΤΡΙΑ</string>
+    <string name="net_health.hign">ΚΑΚΗ</string>
+    
+    <!-- Feed -->
+    <string name="feed.before">ΣΥΜΠΕΡΙΦΟΡΑ ΨΑΡΙΩΝ ΣΤΗΝ ΕΝΑΡΞΗ ΤΑΪΣΜΑΤΟΣ</string>
+    <string name="feed.after">ΣΥΜΠΕΡΙΦΟΡΑ ΨΑΡΙΩΝ ΣΤΟ ΤΕΛΟΣ ΤΑΪΣΜΑΤΟΣ</string>
+    <string name="feed.approved">Εγκρίθηκαν</string>
+    <string name="feed.used">Ταϊστηκαν</string>
+    <string name="feed.bottom">ΚΑΤΩ</string>
+    <string name="feed.middle">ΜΕΣΗ</string>
+    <string name="feed.top">ΕΠΙΦΑΝΕΙΑ</string>
+    <string name="feed.units">Kg</string>
+    
+    <!-- Feed -->
+    <string name="mortalities.subheader">ΝΕΚΡΑ ΨΑΡΙΑ</string>
+    
+    <!-- Health risk -->
+    <string name="health.subheader">ΚΑΤΑΣΤΑΣΗ ΥΓΕΙΑΣ</string>
+    <string name="health.non">ΚΑΛΗ</string>
+    <string name="health.moderate">ΜΕΤΡΙΑ</string>
+    <string name="health.high">ΚΑΚΗ</string>
+    
+    <!-- Select farm -->
+    <string name="selectFarm.wait">Παρακαλώ περιμένετε</string>
+    <string name="selectFarm.error">Σφάλμα</string>
+    <string name="selectFarm.ok">Η μονάδα άλλαξε</string>
+    <string name="selectFarm.failed">Αποτυχία αλλαγής μονάδας</string>
+    
+    <!-- Misc -->
+    <string name="system_info.back">Πίσω</string>
+    
+</resources>

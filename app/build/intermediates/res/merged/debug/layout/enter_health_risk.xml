@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+    
+    <include
+        android:id="@+id/subheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_subheader" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.00"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="@dimen/blankViewWidth"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right" />
+
+        <!-- The NON value -->
+        <RelativeLayout
+            android:id="@+id/imageHealthRisk1"
+            android:layout_width="0dp"
+            android:layout_weight="1.00"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right"
+            android:onClick="onChangedRisk" >
+            <TextView
+                android:id="@+id/textNon" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/textSize1" 
+                android:textColor="#fff"
+                android:text="@string/health.non" />
+            
+	        <ImageView
+	            style="@style/stretchedImage"
+	            android:layout_width="0dp"
+	            android:layout_height="0dp"
+	            android:layout_alignParentTop="true"
+	            android:layout_above="@id/textNon"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentRight="true"
+	            android:src="@drawable/risk_low" />
+        </RelativeLayout>
+        
+        <!-- The MODERATE value -->
+        <RelativeLayout
+            android:id="@+id/imageHealthRisk2"
+            android:layout_width="0dp"
+            android:layout_weight="1.00"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right"
+            android:onClick="onChangedRisk" >
+            <TextView
+                android:id="@+id/textModerate" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/textSize1" 
+                android:textColor="#fff"
+                android:text="@string/health.moderate" />
+            
+	        <ImageView
+	            style="@style/stretchedImage"
+	            android:layout_width="0dp"
+	            android:layout_height="0dp"
+	            android:layout_alignParentTop="true"
+	            android:layout_above="@id/textModerate"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentRight="true"
+	            android:src="@drawable/risk_moderate" />
+        </RelativeLayout>
+        
+        <!-- The HIGH value -->
+        <RelativeLayout
+            android:id="@+id/imageHealthRisk3"
+            android:layout_width="0dp"
+            android:layout_weight="1.00"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right"
+            android:onClick="onChangedRisk" >
+            <TextView
+                android:id="@+id/textHigh" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/textSize1" 
+                android:textColor="#fff"
+                android:text="@string/health.high" />
+            
+	        <ImageView
+	            style="@style/stretchedImage"
+	            android:layout_width="0dp"
+	            android:layout_height="0dp"
+	            android:layout_alignParentTop="true"
+	            android:layout_above="@id/textHigh"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentRight="true"
+	            android:src="@drawable/risk_high" />
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="@dimen/blankViewWidth"
+            android:layout_height="match_parent" />
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/btSubmit"
+        style="@style/stretchedImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.00"
+        android:layout_margin="10dp"
+        android:onClick="onClickSubmit"
+        android:src="@drawable/ok_dim" />
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/common_header" />
+	
+    <!-- The filter (one/all users) -->
+    <LinearLayout
+        android:id="@+id/filterHeader"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/header"
+	    android:background="@drawable/border_bottom"
+	    android:orientation="horizontal" >
+        
+        <ImageView
+            android:id="@+id/userFilterOne"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1.0"
+		    android:onClick="onClickedFilterOne"
+		    android:src="@drawable/person_blue" />
+        
+        <!-- The dividing line (border) -->
+        <View
+	        android:layout_width="3dp"
+	        android:layout_height="match_parent"
+	        android:background="#2F2F2F" />
+        
+        <ImageView 
+            android:id="@+id/userFilterAll"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1.0"
+		    android:onClick="onClickedFilterAll"
+		    android:src="@drawable/person3_blue" />
+    </LinearLayout>
+    
+    <!-- The bottom empty space -->
+    <View
+        android:id="@+id/spaceBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/emptyBottomBar"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_top" />
+    
+    <!-- Left/right arrows -->
+    <ImageView
+        android:id="@+id/arrowLeft"
+        style="@style/stretchedImage"
+        android:layout_width="@dimen/navArrow"
+        android:layout_height="0dp"
+        android:layout_below="@id/filterHeader"
+        android:layout_above="@id/spaceBottom"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/pressable_border_right"
+        android:src="@drawable/arrow_left" />
+    
+    <ImageView
+        android:id="@+id/arrowRight"
+        style="@style/stretchedImage"
+        android:layout_width="@dimen/navArrow"
+        android:layout_height="0dp"
+        android:layout_below="@id/filterHeader"
+        android:layout_above="@id/spaceBottom"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pressable_border_left"
+        android:src="@drawable/arrow_right" />
+    
+    <!-- The list of cages -->
+    <HorizontalScrollView
+        android:id="@+id/cageAllocScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/filterHeader"
+        android:layout_above="@id/spaceBottom"
+        android:layout_toRightOf="@id/arrowLeft"
+        android:layout_toLeftOf="@id/arrowRight" >
+        
+        <LinearLayout
+            android:id="@+id/cageList" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal" />
+    </HorizontalScrollView>
+        
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    layout="@layout/common_header" />
+	
+    <View
+        android:id="@+id/spaceBottom"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_top" />
+    
+    <ImageView
+        android:id="@+id/arrowLeft"
+        style="@style/stretchedImage"
+        android:layout_width="@dimen/navArrow"
+        android:layout_height="0dp"
+        android:layout_below="@id/header"
+        android:layout_above="@id/spaceBottom"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/pressable_border_right"
+        android:src="@drawable/arrow_left" />
+    
+    <ImageView
+        android:id="@+id/arrowRight"
+        style="@style/stretchedImage"
+        android:layout_width="@dimen/navArrow"
+        android:layout_height="0dp"
+        android:layout_below="@id/header"
+        android:layout_above="@id/spaceBottom"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pressable_border_left"
+        android:src="@drawable/arrow_right" />
+    
+    <HorizontalScrollView
+        android:id="@+id/feedListScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:layout_above="@id/spaceBottom"
+        android:layout_toRightOf="@id/arrowLeft"
+        android:layout_toLeftOf="@id/arrowRight" >
+        
+        <LinearLayout
+            android:id="@+id/feedList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal" />
+        
+    </HorizontalScrollView>
+        
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ********** Auto generated ********** -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"> </style>
+    <style name="AppTheme" parent="AppBaseTheme"> </style>
+    
+    <!-- ********** Aquanetix ********** -->
+    
+    <style name="globalBackground">
+        <item name="android:background">#1C1C1C</item>
+    </style>
+    
+    <style name="textLogin">
+        <item name="android:layout_gravity">left|bottom</item>
+        <item name="android:textSize">@dimen/textSize2</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+    <style name="textSmall">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize1</item>
+        <item name="android:textColor">#BBBBBB</item>
+    </style>
+
+    <style name="textMedium">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize2</item>
+        <item name="android:textColor">#BBBBBB</item>
+    </style>
+    
+    <style name="textLarge">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize3</item>
+        <item name="android:textColor">#BBBBBB</item>
+    </style>
+    
+    <style name="stretchedImage">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    
+    <style name="numberBox">
+        <item name="android:layout_width">@dimen/numberBoxSize</item>
+        <item name="android:layout_height">@dimen/numberBoxSize</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/numberBoxText</item>
+        <item name="android:textColor">#3B3B3B</item>
+        <item name="android:background">@drawable/number_box</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+    
+    <style name="numberBoxResult" parent="@style/numberBox">
+        <item name="android:textColor">#33ABD4</item>
+    </style>
+    
+</resources>

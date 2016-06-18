@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash -->
+    <string name="splash.loading">Carregando&#8230;</string>
+    <string name="splash.no_internet">Não há ligação à Internet</string>
+    <string name="splash.user_error">Erro na busca de usuários</string>
+    <string name="splash.cage_error">Erro na busca de Contentore</string>
+    <string name="splash.try_again">Volte a tentar</string>
+    
+    <!-- Login -->
+    <string name="login.usernname">Username</string>
+    <string name="login.password">Password</string>
+    <string name="login.wait.title">Espere</string>
+    <string name="login.wait.message">Enviando dados&#8230;</string>
+    <string name="login.error">Erro de autenticação</string>
+    <string name="login.error.server">O servidor não autenticou</string>
+    
+    <!-- Pin -->
+    <string name="pin.enter">Entrar PIN</string>
+    <string name="pin.wrong">PIN errado. Volte a tentar.</string>
+    <string name="pin.change.no_user">Por favor escolha um usuário</string>
+    <string name="pin.change.no_internet">Não há ligação à Internet.</string>
+    <string name="pin.change.first">Insira novo PIN</string>
+    <string name="pin.change.second">Repita o novo PIN</string>
+    <string name="pin.change.no_match">PIN errado. Volte a tentar.</string>
+    <string name="pin.change.start">Enviando novo PIN para servidor</string>
+    <string name="pin.change.done">PIN alterado</string>
+    <string name="pin.change.failed">Erro na alteração do PIN</string>
+     
+    <!-- Synchronise -->
+    <string name="sync.now">Sicronizar agora</string>
+    <string name="sync.pending">pedido(s) em fila</string>
+    <string name="sync.started">Sincronização iniciada</string>
+    <string name="sync.details">Detalhes do log&#8230;</string>
+    <string name="sync.no_internet">Não há ligação à Internet</string>
+    <string name="sync.logged">A lista de pedidos foi enviada ao log do Android.</string>
+    
+    <!-- Settings menu -->
+    <string-array name="settings_options">
+        <item>Altere PIN</item>
+        <item>Ligar à Quinta</item>
+        <item>Cancelar</item>
+    </string-array>
+
+    <!-- Home menu -->
+    <string name="userlist.title">Selecione Usuário</string>
+    <string name="feedlist.title">Selecionar Alimento</string>
+    
+    <!-- Home menu -->
+    <string name="home.environmental">MEDIÇÕES</string> <!-- ENVIRONMENTAL MEASUREMENTS -->
+    <string name="home.cages">CONTENTORES</string>
+    
+    <!-- Environmental-measurements menu -->
+    <string name="environment.temperature">TEMPERATURA</string>
+    <string name="environment.oxygen">OXIGÉNIO</string>
+    
+    <!-- Cage menu -->
+    <string name="cage.feed">RAÇÃO</string>
+    <string name="cage.mortalities">MORTALIDADE</string>
+    <string name="cage.net">REDE</string>
+    <string name="cage.environmental">MEDIÇÕES</string>
+    <string name="cage.health">SAÚDE</string>
+    
+    <!-- Enter oxygen-temperature -->
+    <string name="enter.oxygen_title">OXIGÉNIO</string>
+    <string name="enter.oxygen_units">mg/l</string>
+    <string name="enter.temperature_title">TEMPERATURA</string>
+    <string name="enter.temperature_units">&#x2103;</string>
+    
+    <!-- Net health -->
+    <string name="net_health.subheader">CHECK REDES</string>
+    <string name="net_health.non">BAIXO</string>
+    <string name="net_health.moderate">MODERADO</string>
+    <string name="net_health.hign">ALTO</string>
+    
+    <!-- Feed -->
+    <string name="feed.before">POSIÇÃO DO PEIXE NO INICIO DA ALIMENTAÇÃO</string>
+    <string name="feed.after">POSIÇÃO DO PEIXE NO FIM DA ALIMENTAÇÃO</string>
+    <string name="feed.approved">Ração aprovado</string>
+    <string name="feed.used">Ração usada</string>
+    <string name="feed.bottom">FUNDO</string>
+    <string name="feed.middle">MEIO</string>
+    <string name="feed.top">CIMA</string>
+    <string name="feed.units">Kg</string>
+    
+    <!-- Feed -->
+    <string name="mortalities.subheader">PEIXES MORTOS</string>
+    
+    <!-- Health risk -->
+    <string name="health.subheader">RISCO SANITÁRIO</string>
+    <string name="health.non">BAIXO</string>
+    <string name="health.moderate">MODERADO</string>
+    <string name="health.high">ALTO</string>
+    
+    <!-- Select farm -->
+    <string name="selectFarm.wait">Espere p.f.</string>
+    <string name="selectFarm.error">Ocorreu erro</string>
+    <string name="selectFarm.ok">Quinta alterada</string>
+    <string name="selectFarm.failed">Erro na alteração da quinta</string>
+    
+    <!-- Misc -->
+    <string name="system_info.back">Retorno</string>
+    
+</resources>

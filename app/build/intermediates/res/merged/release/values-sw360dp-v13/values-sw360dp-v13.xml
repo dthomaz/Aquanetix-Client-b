@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="anchorSize">5dp</dimen>
+    <dimen name="blankViewWidth">30dp</dimen>
+    <dimen name="cageViewPad">25dp</dimen>
+    <dimen name="circleLarge">40dp</dimen>
+    <dimen name="circleMedium">30dp</dimen>
+    <dimen name="circleSmall">20dp</dimen>
+    <dimen name="deleteBoxHeight">135dp</dimen>
+    <dimen name="deleteBoxMargin">-125dp</dimen>
+    <dimen name="emptyBottomBar">15dp</dimen>
+    <dimen name="headerHeight">50dp</dimen>
+    <dimen name="mainMenuPad">40dp</dimen>
+    <dimen name="navArrow">50dp</dimen>
+    <dimen name="numberBoxSize">65dp</dimen>
+    <dimen name="numberBoxText">35sp</dimen>
+    <dimen name="numpadOffset">130dp</dimen>
+    <dimen name="pad_OK">7dp</dimen>
+    <dimen name="pin_OK">80sp</dimen>
+    <dimen name="plusMinusPad">20dp</dimen>
+    <dimen name="roundIcons">50dp</dimen>
+    <dimen name="textSize1">10sp</dimen>
+    <dimen name="textSize2">20sp</dimen>
+    <dimen name="textSize3">30sp</dimen>
+    <dimen name="textSize4">40sp</dimen>
+    <dimen name="textSize5">60sp</dimen>
+    <dimen name="userWidth">40dp</dimen>
+</resources>

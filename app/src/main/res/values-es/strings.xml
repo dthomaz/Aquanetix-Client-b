@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Splash -->
+    <string name="splash.loading">Cargando&#8230;</string>
+    <string name="splash.no_internet">No hay conexión a Internet</string>
+    <string name="splash.user_error">Error en la busca de usuários</string>
+    <string name="splash.cage_error">Error en la busca de Conteneore</string>
+    <string name="splash.try_again">Vuelve a intentarlo</string>
+    
+    <!-- Login -->
+    <string name="login.usernname">Nombre de usuario</string>
+    <string name="login.password">contraseña</string>
+    <string name="login.wait.title">Espere</string>
+    <string name="login.wait.message">Enviando dados&#8230;</string>
+    <string name="login.error">Error de autenticación</string>
+    <string name="login.error.server">El servidor no autenticó</string>
+    
+    <!-- Pin -->
+    <string name="pin.enter">Introduzca PIN</string>
+    <string name="pin.wrong">PIN incorrecto. Vuelva a intentarlo.</string>
+    <string name="pin.change.no_user">Por favor, elija un usuario</string>
+    <string name="pin.change.no_internet">No hay conexión a Internet.</string>
+    <string name="pin.change.first">Introduzca el nuevo PIN</string>
+    <string name="pin.change.second">Repetir nuevo PIN</string>
+    <string name="pin.change.no_match">PIN incorrecto. Vuelva a intentarlo.</string>
+    <string name="pin.change.start">Enviando PIN nuevo al servidor</string>
+    <string name="pin.change.done">PIN modificado</string>
+    <string name="pin.change.failed">Error en el cambio de PIN</string>
+     
+    <!-- Synchronise -->
+    <string name="sync.now">Sicronizar ahora</string>
+    <string name="sync.pending">pedido(s) en fila</string>
+    <string name="sync.started">sincronización iniciada</string>
+    <string name="sync.details">Detalles del log&#8230;</string>
+    <string name="sync.no_internet">No hay conexión a Internet</string>
+    <string name="sync.logged">La lista de pedidos foi enviada al log de Android.</string>
+    
+    <!-- Settings menu -->
+    <string-array name="settings_options">
+        <item>Cambio de PIN</item>
+        <item>conectar a la granja</item>
+        <item>Cancelar</item>
+    </string-array>
+
+    <!-- Home menu -->
+    <string name="userlist.title">Seleccionar usuario</string>
+    <string name="feedlist.title">Seleccionar Alimento</string>
+    
+    <!-- Home menu -->
+    <string name="home.environmental">MEDICIÓNES</string> <!-- ENVIRONMENTAL MEASUREMENTS -->
+    <string name="home.cages">CONTENEDORES</string>
+    
+    <!-- Environmental-measurements menu -->
+    <string name="environment.temperature">TEMPERATURA</string>
+    <string name="environment.oxygen">OXÍGENO</string>
+    
+    <!-- Cage menu -->
+    <string name="cage.feed">PIENSO</string>
+    <string name="cage.mortalities">MORTALIDADE</string>
+    <string name="cage.net">RED</string>
+    <string name="cage.environmental">MEDICIÓNES</string>
+    <string name="cage.health">SALUD</string>
+    
+    <!-- Enter oxygen-temperature -->
+    <string name="enter.oxygen_title">OXÍGENO</string>
+    <string name="enter.oxygen_units">mg/l</string>
+    <string name="enter.temperature_title">TEMPERATURA</string>
+    <string name="enter.temperature_units">&#x2103;</string>
+    
+    <!-- Net health -->
+    <string name="net_health.subheader">CHECK REDS</string>
+    <string name="net_health.non">BAJO</string>
+    <string name="net_health.moderate">MODERADO</string>
+    <string name="net_health.hign">ALTO</string>
+    
+    <!-- Feed -->
+    <string name="feed.before">POSICIÓN EN INICIO DE LA ALIMENTACIÓN</string>
+    <string name="feed.after">POSICIÓN EN FINAL DE LA ALIMENTACIÓN</string>
+    <string name="feed.approved">Pienso aprobado</string>
+    <string name="feed.used">Pienso usado</string>
+    <string name="feed.bottom">FONDO</string>
+    <string name="feed.middle">MEDIO</string>
+    <string name="feed.top">CIMA</string>
+    <string name="feed.units">Kg</string>
+    
+    <!-- Feed -->
+    <string name="mortalities.subheader">PECES MUERTOS</string>
+    
+    <!-- Health risk -->
+    <string name="health.subheader">RIESGO A LA SALUD</string>
+    <string name="health.non">BAJO</string>
+    <string name="health.moderate">MODERADO</string>
+    <string name="health.high">ALTO</string>
+    
+    <!-- Select farm -->
+    <string name="selectFarm.wait">Espere p.f.</string>
+    <string name="selectFarm.error">Ha ocurrido un error</string>
+    <string name="selectFarm.ok">Granja modificada</string>
+    <string name="selectFarm.failed">Error en el cambio de granja</string>
+    
+    <!-- Misc -->
+    <string name="system_info.back">Retorno</string>
+    
+</resources>

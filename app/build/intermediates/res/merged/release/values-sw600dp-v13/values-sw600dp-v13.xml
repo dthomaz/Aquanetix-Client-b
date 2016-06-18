@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="anchorSize">10dp</dimen>
+    <dimen name="blankViewWidth">60dp</dimen>
+    <dimen name="cageViewPad">30dp</dimen>
+    <dimen name="circleLarge">80dp</dimen>
+    <dimen name="circleMedium">60dp</dimen>
+    <dimen name="circleSmall">40dp</dimen>
+    <dimen name="deleteBoxHeight">230dp</dimen>
+    <dimen name="deleteBoxMargin">-250dp</dimen>
+    <dimen name="emptyBottomBar">20dp</dimen>
+    <dimen name="headerHeight">100dp</dimen>
+    <dimen name="mainMenuPad">50dp</dimen>
+    <dimen name="navArrow">100dp</dimen>
+    <dimen name="numberBoxSize">110dp</dimen>
+    <dimen name="numberBoxText">60sp</dimen>
+    <dimen name="numpadOffset">260dp</dimen>
+    <dimen name="pad_OK">10dp</dimen>
+    <dimen name="pin_OK">140sp</dimen>
+    <dimen name="plusMinusPad">30dp</dimen>
+    <dimen name="roundIcons">80dp</dimen>
+    <dimen name="textSize1">20sp</dimen>
+    <dimen name="textSize2">40sp</dimen>
+    <dimen name="textSize3">60sp</dimen>
+    <dimen name="textSize4">80sp</dimen>
+    <dimen name="textSize5">120sp</dimen>
+    <dimen name="userWidth">80dp</dimen>
+    <integer name="abc_max_action_buttons">5</integer>
+</resources>

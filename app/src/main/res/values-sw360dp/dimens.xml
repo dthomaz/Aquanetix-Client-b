@@ -1,0 +1,51 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw360dp devices (e.g. 4" phones) here.
+    -->
+
+    <!-- Dimensions of header items (back & signut buttons and username) -->
+    <dimen name="headerHeight">50dp</dimen>
+    
+    <!-- Dimensions of navigation arrows (left-right) on scroll views -->
+    <dimen name="navArrow">50dp</dimen>
+    <dimen name="emptyBottomBar">15dp</dimen>
+    <dimen name="roundIcons">50dp</dimen>
+
+    <!-- Padding around various images --> 
+    <dimen name="mainMenuPad">40dp</dimen> <!-- Large icons at home, environmental etc -->
+    <dimen name="cageViewPad">25dp</dimen>
+    <dimen name="plusMinusPad">20dp</dimen>
+    <dimen name="pad_OK">7dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="textSize1">10sp</dimen>
+    <dimen name="textSize2">20sp</dimen>
+    <dimen name="textSize3">30sp</dimen>
+    <dimen name="textSize4">40sp</dimen>
+    <dimen name="textSize5">60sp</dimen>
+    
+    <!-- PIN -->
+    <dimen name="pin_OK">80sp</dimen>
+    
+    <!-- Affects "enter" pages with empty space at the left and right. Fish level, health risk -->
+    <dimen name="blankViewWidth">30dp</dimen>
+    
+    <!-- User-select list -->
+    <dimen name="userWidth">40dp</dimen>
+    
+    <!-- The net-health circle -->
+    <dimen name="circleSmall">20dp</dimen>
+    <dimen name="circleMedium">30dp</dimen>
+    <dimen name="circleLarge">40dp</dimen>
+    
+    <!-- The mortalitiy and PIN number boxes. See normal dimens.xml for doc -->
+    <dimen name="anchorSize">5dp</dimen>
+    <dimen name="numberBoxSize">65dp</dimen>
+    <dimen name="deleteBoxHeight">135dp</dimen>
+    <dimen name="numpadOffset">130dp</dimen>
+    <dimen name="deleteBoxMargin">-125dp</dimen>
+    <dimen name="numberBoxText">35sp</dimen>
+    
+</resources>

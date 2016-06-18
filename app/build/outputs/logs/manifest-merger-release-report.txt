@@ -1,0 +1,169 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:5:5-33
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:16:22-78
+application
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:18:5-59:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:21:9-41
+	android:allowBackup
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:20:9-42
+	android:theme
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:22:9-40
+service#uk.co.aquanetix.network.RequestQueue
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:24:9-72
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:24:18-69
+activity#uk.co.aquanetix.activities.SplashActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:25:9-33:20
+	android:screenOrientation
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:28:13-49
+	android:alwaysRetainTaskState
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:26:13-69
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:31:27-74
+activity#uk.co.aquanetix.activities.RegistrationActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:36:13-75
+activity#uk.co.aquanetix.activities.UserSelectActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:39:9-82
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:39:19-79
+activity#uk.co.aquanetix.activities.PinActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:40:9-75
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:40:19-72
+activity#uk.co.aquanetix.activities.PinChangeActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:41:9-81
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:41:19-78
+activity#uk.co.aquanetix.activities.HomeMenuActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:42:9-80
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:42:19-77
+activity#uk.co.aquanetix.activities.EnvironmentalMenuActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:43:9-89
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:43:19-86
+activity#uk.co.aquanetix.activities.EnvironmentalContainerMenuActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:44:9-98
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:44:19-95
+activity#uk.co.aquanetix.activities.EnterTemperatureActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:45:9-88
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:45:19-85
+activity#uk.co.aquanetix.activities.EnterOxygenActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:46:9-83
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:46:19-80
+activity#uk.co.aquanetix.activities.CageSelectActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:47:9-82
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:47:19-79
+activity#uk.co.aquanetix.activities.CageViewActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:48:9-80
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:48:19-77
+activity#uk.co.aquanetix.activities.EnterFeedFishLevelActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:49:9-90
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:49:19-87
+activity#uk.co.aquanetix.activities.EnterFeedAmountActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:50:9-87
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:50:19-84
+activity#uk.co.aquanetix.activities.EnterMortalitiesActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:51:9-88
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:51:19-85
+activity#uk.co.aquanetix.activities.EnterNetCheckActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:52:9-85
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:52:19-82
+activity#uk.co.aquanetix.activities.EnterHealthRiskActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:53:9-87
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:53:19-84
+activity#uk.co.aquanetix.activities.SystemInfo
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:54:9-74
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:54:19-71
+activity#uk.co.aquanetix.activities.SelectFarmActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:55:9-82
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:55:19-79
+activity#uk.co.aquanetix.activities.SynchroniseActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:56:9-83
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:56:19-80
+activity#uk.co.aquanetix.activities.FeedViewActivity
+ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:57:9-80
+	android:name
+		ADDED from /Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/AndroidManifest.xml:57:19-77

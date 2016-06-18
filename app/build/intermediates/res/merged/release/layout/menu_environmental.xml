@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+        
+    <View
+        android:id="@+id/anchor"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:background="#2F2F2F" />
+
+    <TextView
+        android:id="@+id/textEnvLegendTemperature"
+        style="@style/textMedium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/anchor"
+        android:text="@string/environment.temperature" />
+    
+    <ImageView
+        android:id="@+id/btEnvTemperature"
+        style="@style/stretchedImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@id/textEnvLegendTemperature"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/header"
+        android:layout_toLeftOf="@id/anchor"
+        android:padding="@dimen/mainMenuPad"
+        android:onClick="onClickTemperature"
+        android:background="@drawable/pressable"
+        android:src="@drawable/temperature" />
+    
+    <TextView
+        android:id="@+id/textEnvLegendOxygen"
+        style="@style/textMedium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/anchor"
+        android:text="@string/environment.oxygen" />
+        
+    <ImageView
+        android:id="@+id/btEnvOxygen"
+        style="@style/stretchedImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@id/textEnvLegendOxygen"
+        android:layout_toRightOf="@id/anchor"
+        android:layout_below="@id/header"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/mainMenuPad"
+        android:onClick="onClickOxygen"
+        android:background="@drawable/pressable"
+        android:src="@drawable/oxygen" />
+        
+</RelativeLayout>

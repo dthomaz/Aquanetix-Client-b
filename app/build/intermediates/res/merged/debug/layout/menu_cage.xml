@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/common_header" />
+	
+    <View
+        android:id="@+id/anchor"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:background="#2F2F2F" />
+
+    <include
+        android:id="@+id/cageSummaryColumn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/header"
+        android:layout_toLeftOf="@id/anchor"
+        android:onClick="onClickBack"
+        layout="@layout/common_cage_summary" />
+    
+    <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/header"
+        android:layout_toRightOf="@id/anchor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+        
+        <!-- Two anchors to make the cross on the right of the screen -->
+        <View
+	        android:id="@+id/smallVerAnchor"
+	        android:layout_width="3dp"
+	        android:layout_height="match_parent"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="-3dp"
+	        android:background="#2F2F2F" />
+        <View
+            android:id="@+id/smallHorAnchor"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-3dp"
+            android:background="#2F2F2F" />        
+
+        <!-- Feed: the top-left image button in the right of the screen -->
+        <TextView
+            android:id="@+id/textLegendFeed"
+            style="@style/textMedium"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_above="@id/smallHorAnchor"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/smallVerAnchor"
+            android:text="@string/cage.feed" />
+        <ImageView
+            android:id="@+id/imageDidFeed"
+            style="@style/stretchedImage"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_above="@id/textLegendFeed"
+            android:layout_toLeftOf="@id/smallVerAnchor"
+            android:padding="@dimen/cageViewPad"
+            android:background="@drawable/pressable"
+            android:onClick="onClickedFeed"
+            android:src="@drawable/feed_rect_red" />
+        
+        <!-- Mortalities: the top-right image button in the right of the screen -->
+        <TextView
+            android:id="@+id/textLegendMortalities"
+            style="@style/textMedium"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_above="@id/smallHorAnchor"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/smallVerAnchor"
+            android:text="@string/cage.mortalities" />
+        <ImageView
+            android:id="@+id/imageDidMortalities"
+            style="@style/stretchedImage"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/smallVerAnchor"
+            android:layout_above="@id/textLegendMortalities"
+            android:layout_toLeftOf="@id/smallVerAnchor"
+            android:padding="@dimen/cageViewPad"
+            android:background="@drawable/pressable"
+            android:onClick="onClickedMortalities"
+            android:src="@drawable/mortality_rect_red" />
+        
+        <!-- Net: the bottom-left image button in the right of the screen -->
+        <TextView
+            android:id="@+id/textLegendNet"
+            style="@style/textMedium"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/smallVerAnchor"
+            android:text="@string/cage.net" />
+        <ImageView
+            android:id="@+id/imageDidNet"
+            style="@style/stretchedImage"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/smallVerAnchor"
+            android:layout_above="@id/textLegendNet"
+            android:layout_below="@id/smallHorAnchor"
+            android:padding="@dimen/cageViewPad"
+            android:background="@drawable/pressable"
+            android:onClick="onClickedNet"
+            android:src="@drawable/net_rect_red" />
+        
+        <!-- Health: the bottom-right image button in the right of the screen -->
+        <TextView
+            android:id="@+id/textLegendHealth"
+            style="@style/textMedium"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/smallVerAnchor"
+            android:text="@string/cage.health" />
+        <ImageView
+            android:id="@+id/imageDidHealth"
+            style="@style/stretchedImage"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/smallVerAnchor"
+            android:layout_above="@id/textLegendHealth"
+            android:layout_below="@id/smallHorAnchor"
+            android:padding="@dimen/cageViewPad"
+            android:background="@drawable/pressable"
+            android:onClick="onClickedHealth"
+            android:src="@drawable/health_rect_red" />
+        
+    </RelativeLayout>
+        
+</RelativeLayout>

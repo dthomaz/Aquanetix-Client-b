@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="hdpi"
+    format="7"
+    timestamp="643041838801232"
+    token="6337109908124513553"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="2920" />
+    <task
+        name="instant-run-dex"
+        duration="1175" />
+    <task
+        name="instant-run-transform"
+        duration="191" />
+    <task
+        name="verifier"
+        duration="97" />
+
+    <artifact
+        location="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="599670835697196" >
+        <artifact
+            location="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="643041838801232"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+    
+    <include
+        android:id="@+id/subheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        layout="@layout/common_subheader" />
+
+    <!-- The result numbers -->
+    <LinearLayout
+        android:id="@+id/resultNumbers"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subheader"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:background="@drawable/border_bottom"
+        android:gravity="center" >
+        
+        <TextView style="@style/numberBoxResult" android:text="-"/>
+        <TextView style="@style/numberBoxResult" android:text="-"/>
+        <TextView style="@style/numberBoxResult" android:text="-"/>
+        <TextView style="@style/numberBoxResult" android:text="-"/>
+        <TextView style="@style/numberBoxResult" android:text="-"/>
+    </LinearLayout>
+
+    <!-- The numad -->
+    <RelativeLayout
+        android:id="@+id/numpad"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@id/resultNumbers"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+        
+        <View
+            android:id="@+id/anchor"
+            android:layout_height="@dimen/anchorSize"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true" />
+        
+        <!-- NOTE: to properly align at the center, use paddingRight equal to 
+             the width of the "delete", and equal negative margin at the "delete"-->
+        <LinearLayout
+	        android:id="@+id/numpadTop"
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@id/anchor"
+	        android:layout_centerHorizontal="true" 
+            android:paddingRight="@dimen/numpadOffset" >
+	        
+            <TextView style="@style/numberBox" android:tag="0" android:text="0" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="1" android:text="1" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="2" android:text="2" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="3" android:text="3" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="4" android:text="4" android:onClick="onClickedNumber"/>
+        </LinearLayout>
+	    
+        <LinearLayout
+	        android:id="@+id/numpadBottom"
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/anchor"
+	        android:layout_centerHorizontal="true" 
+            android:paddingRight="@dimen/numpadOffset" >
+	        
+            <TextView style="@style/numberBox" android:tag="5" android:text="5" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="6" android:text="6" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="7" android:text="7" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="8" android:text="8" android:onClick="onClickedNumber"/>
+            <TextView style="@style/numberBox" android:tag="9" android:text="9" android:onClick="onClickedNumber"/>
+        </LinearLayout>
+        
+        <ImageView
+            style="@style/numberBox"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/deleteBoxHeight"
+            android:layout_toRightOf="@id/numpadTop"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/deleteBoxMargin"
+            android:onClick="onClickedNumber"
+            android:tag="-1"
+            android:src="@drawable/delete" />
+        
+        <!-- The submit button -->
+        <ImageView
+            android:id="@+id/btSubmit"
+            style="@style/stretchedImage"
+            android:layout_width="@dimen/pin_OK"
+            android:layout_height="@dimen/pin_OK"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:onClick="onClickedSubmit"
+            android:src="@drawable/ok_dim" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

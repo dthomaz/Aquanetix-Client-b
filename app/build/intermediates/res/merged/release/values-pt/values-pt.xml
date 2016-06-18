@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_options">
+        <item>Altere PIN</item>
+        <item>Ligar à Quinta</item>
+        <item>Cancelar</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="cage.environmental">MEDIÇÕES</string>
+    <string name="cage.feed">RAÇÃO</string>
+    <string name="cage.health">SAÚDE</string>
+    <string name="cage.mortalities">MORTALIDADE</string>
+    <string name="cage.net">REDE</string>
+    <string name="enter.oxygen_title">OXIGÉNIO</string>
+    <string name="enter.oxygen_units">mg/l</string>
+    <string name="enter.temperature_title">TEMPERATURA</string>
+    <string name="enter.temperature_units">℃</string>
+    <string name="environment.oxygen">OXIGÉNIO</string>
+    <string name="environment.temperature">TEMPERATURA</string>
+    <string name="feed.after">POSIÇÃO DO PEIXE NO FIM DA ALIMENTAÇÃO</string>
+    <string name="feed.approved">Ração aprovado</string>
+    <string name="feed.before">POSIÇÃO DO PEIXE NO INICIO DA ALIMENTAÇÃO</string>
+    <string name="feed.bottom">FUNDO</string>
+    <string name="feed.middle">MEIO</string>
+    <string name="feed.top">CIMA</string>
+    <string name="feed.units">Kg</string>
+    <string name="feed.used">Ração usada</string>
+    <string name="feedlist.title">Selecionar Alimento</string>
+    <string name="health.high">ALTO</string>
+    <string name="health.moderate">MODERADO</string>
+    <string name="health.non">BAIXO</string>
+    <string name="health.subheader">RISCO SANITÁRIO</string>
+    <string name="home.cages">CONTENTORES</string>
+    <string name="home.environmental">MEDIÇÕES</string>
+    <string name="login.error">Erro de autenticação</string>
+    <string name="login.error.server">O servidor não autenticou</string>
+    <string name="login.password">Password</string>
+    <string name="login.usernname">Username</string>
+    <string name="login.wait.message">Enviando dados…</string>
+    <string name="login.wait.title">Espere</string>
+    <string name="mortalities.subheader">PEIXES MORTOS</string>
+    <string name="net_health.hign">ALTO</string>
+    <string name="net_health.moderate">MODERADO</string>
+    <string name="net_health.non">BAIXO</string>
+    <string name="net_health.subheader">CHECK REDES</string>
+    <string name="pin.change.done">PIN alterado</string>
+    <string name="pin.change.failed">Erro na alteração do PIN</string>
+    <string name="pin.change.first">Insira novo PIN</string>
+    <string name="pin.change.no_internet">Não há ligação à Internet.</string>
+    <string name="pin.change.no_match">PIN errado. Volte a tentar.</string>
+    <string name="pin.change.no_user">Por favor escolha um usuário</string>
+    <string name="pin.change.second">Repita o novo PIN</string>
+    <string name="pin.change.start">Enviando novo PIN para servidor</string>
+    <string name="pin.enter">Entrar PIN</string>
+    <string name="pin.wrong">PIN errado. Volte a tentar.</string>
+    <string name="selectFarm.error">Ocorreu erro</string>
+    <string name="selectFarm.failed">Erro na alteração da quinta</string>
+    <string name="selectFarm.ok">Quinta alterada</string>
+    <string name="selectFarm.wait">Espere p.f.</string>
+    <string name="splash.cage_error">Erro na busca de Contentore</string>
+    <string name="splash.loading">Carregando…</string>
+    <string name="splash.no_internet">Não há ligação à Internet</string>
+    <string name="splash.try_again">Volte a tentar</string>
+    <string name="splash.user_error">Erro na busca de usuários</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sync.details">Detalhes do log…</string>
+    <string name="sync.logged">A lista de pedidos foi enviada ao log do Android.</string>
+    <string name="sync.no_internet">Não há ligação à Internet</string>
+    <string name="sync.now">Sicronizar agora</string>
+    <string name="sync.pending">pedido(s) em fila</string>
+    <string name="sync.started">Sincronização iniciada</string>
+    <string name="system_info.back">Retorno</string>
+    <string name="userlist.title">Selecione Usuário</string>
+</resources>

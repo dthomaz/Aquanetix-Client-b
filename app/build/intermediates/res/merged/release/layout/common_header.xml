@@ -1,0 +1,45 @@
+<!--
+    The top element that is common in all activities.
+    Contains the username, back and sign-out button.
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border_bottom" >
+    
+    <TextView
+        android:id="@+id/textUsername"
+        style="@style/textMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/lorem" />
+    
+    <ImageView
+        android:id="@+id/btBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClickedBack"
+        android:background="@drawable/pressable"
+        android:src="@drawable/back"
+        android:nestedScrollingEnabled="false" />
+    
+    <ImageView
+        android:id="@+id/btSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickedSettings"
+        android:background="@drawable/pressable"
+        android:src="@drawable/settings" />
+    
+    <ImageView
+        android:id="@+id/btSyncStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btSettings"
+        android:visibility="invisible"
+        android:onClick="onClickedShowSynch"
+        android:background="@drawable/pressable"
+        android:src="@drawable/synchronize_blue" />
+
+</RelativeLayout>

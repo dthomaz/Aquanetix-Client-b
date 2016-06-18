@@ -1,0 +1,80 @@
+<!-- Used for the activities that receive a float value (oxygen and temperature) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    style="@style/globalBackground" >
+        
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_subheader" />
+    
+    <FrameLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btDecrement"
+            style="@style/stretchedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/plusMinusPad"
+            android:layout_gravity="left"
+            android:background="@drawable/border_right"
+            android:src="@drawable/pressable_minus" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+            
+	        <TextView
+	            android:id="@+id/textValueDisplay"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/lorem"
+	            android:textColor="#1FADFF"
+	            android:textSize="@dimen/textSize5" />
+            
+	        <TextView
+	            android:id="@+id/textUnitsDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lorem"
+                android:textColor="#F87B6E"
+                android:textSize="@dimen/textSize3" />
+        </LinearLayout>
+        
+        <ImageView
+            android:id="@+id/btIncrement"
+            style="@style/stretchedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/plusMinusPad"
+            android:layout_gravity="right"
+            android:background="@drawable/border_left"
+            android:src="@drawable/pressable_plus" />
+        
+    </FrameLayout>
+    
+    <ImageView
+        android:id="@+id/btSubmit"
+        style="@style/stretchedImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:padding="@dimen/pad_OK"
+        android:onClick="onClickSubmit"
+        android:src="@drawable/pressable_ok" />
+
+</LinearLayout>

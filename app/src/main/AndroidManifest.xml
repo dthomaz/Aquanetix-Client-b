@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.co.aquanetix"
+    android:versionCode="65"
+    android:versionName="1.1.10" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <service android:name="uk.co.aquanetix.network.RequestQueue" />
+        <activity
+            android:name="uk.co.aquanetix.activities.SplashActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="uk.co.aquanetix.activities.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity android:name="uk.co.aquanetix.activities.UserSelectActivity" />
+        <activity android:name="uk.co.aquanetix.activities.PinActivity" />
+        <activity android:name="uk.co.aquanetix.activities.PinChangeActivity" />
+        <activity android:name="uk.co.aquanetix.activities.HomeMenuActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnvironmentalMenuActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnvironmentalContainerMenuActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterTemperatureActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterOxygenActivity" />
+        <activity android:name="uk.co.aquanetix.activities.CageSelectActivity" />
+        <activity android:name="uk.co.aquanetix.activities.CageViewActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterFeedFishLevelActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterFeedAmountActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterMortalitiesActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterNetCheckActivity" />
+        <activity android:name="uk.co.aquanetix.activities.EnterHealthRiskActivity" />
+        <activity android:name="uk.co.aquanetix.activities.SystemInfo" />
+        <activity android:name="uk.co.aquanetix.activities.SelectFarmActivity" />
+        <activity android:name="uk.co.aquanetix.activities.SynchroniseActivity" />
+        <activity android:name="uk.co.aquanetix.activities.FeedViewActivity" />
+
+    </application>
+
+</manifest>

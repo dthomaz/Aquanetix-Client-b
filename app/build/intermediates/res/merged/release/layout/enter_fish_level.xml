@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/globalBackground" >
+    
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+    
+    <include
+        android:id="@+id/subheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        layout="@layout/common_subheader" />
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginTop="-12dp"
+        android:background="@drawable/wave_repeat"
+        />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:background="@drawable/border_bottom"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="@dimen/blankViewWidth"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right" />
+        
+        <!-- The TOP value -->
+        <RelativeLayout
+            android:id="@+id/imageFishLevel1"
+            android:layout_width="0dp"
+            android:layout_weight="1.00"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right"
+            android:onClick="onChangedFishLevel" >
+            <TextView
+                android:id="@+id/textTop" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/textSize1" 
+                android:textColor="#fff"
+                android:text="@string/feed.top" />
+            <ImageView
+                style="@style/stretchedImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/textTop"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/feed_top" />
+        </RelativeLayout>
+        
+        <!-- The MIDDLE value -->
+        <RelativeLayout
+            android:id="@+id/imageFishLevel2"
+            android:layout_width="0dp"
+            android:layout_weight="1.00"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right"
+            android:onClick="onChangedFishLevel" >
+            <TextView
+                android:id="@+id/textMiddle" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/textSize1" 
+                android:textColor="#fff"
+                android:text="@string/feed.middle" />
+            <ImageView
+                style="@style/stretchedImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/textMiddle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/feed_middle" />
+        </RelativeLayout>
+        
+        <!-- The BOTTOM value -->
+        <RelativeLayout
+            android:id="@+id/imageFishLevel3"
+            android:layout_width="0dp"
+            android:layout_weight="1.00"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_right"
+            android:onClick="onChangedFishLevel" >
+            <TextView
+                android:id="@+id/textBottom" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/textSize1" 
+                android:textColor="#fff"
+                android:text="@string/feed.bottom" />
+            <ImageView
+                style="@style/stretchedImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/textBottom"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/feed_bottom" />
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="@dimen/blankViewWidth"
+            android:layout_height="match_parent" />
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/btSubmit"
+        style="@style/stretchedImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"
+        android:layout_margin="10dp"
+        android:onClick="onClickSubmit"
+        android:src="@drawable/ok_dim" />
+
+
+</LinearLayout>

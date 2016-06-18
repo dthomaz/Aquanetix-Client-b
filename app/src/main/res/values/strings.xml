@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generic strings and strings to be replaced by code (only used in eclipse layout editor) -->
+    <string name="app_name">Aquanetix</string>
+    <string name="lorem">Lorem</string>
+    
+    <!-- Keys to store log files in AWS S3 -->
+    <string name="aws.accessKey">AKIAIQ2I6GAXJKUMHJ4A</string>
+    <string name="aws.secretKey">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</string>
+    
+    <!-- DEBUG options
+    <string name="url.server">https://client.aquanetix.co.uk</string>
+    <string name="url.server">http://192.168.1.68:3000/client</string>
+    <string name="url.server">http://192.168.2.100:3000/client</string>
+     -->
+    
+    <!-- Server REST endpoints -->
+    <string name="url.server">https://client.aquanetix.co.uk</string>
+    <string name="url.signin">/register/signin</string>
+    <string name="url.changePin">/companies/:company_id/users/pincode</string>
+    <string name="url.deviceInfo">/device/info</string>
+    <string name="url.farmList">/companies/:company_id/farms</string>
+    <string name="url.deviceFarm">/companies/:company_id/farms/active</string>
+    <string name="url.temperature">/companies/:company_id/measurements/temperature</string>
+    <string name="url.oxygen">/companies/:company_id/measurements/oxygen</string>
+    <string name="url.users">/companies/:company_id/users</string>
+    <string name="url.feeds">/companies/:company_id/feeds</string>
+    <string name="url.cageAlloc">/companies/:company_id/cage_allocations</string>
+    <string name="url.feed">/companies/:company_id/cage_allocations/:allocation_id/feedings/:feeding_id</string>
+    <string name="url.mortalities">/companies/:company_id/cage_allocations/:allocation_id/mortalities</string>
+    <string name="url.health">/companies/:company_id/cage_allocations/:allocation_id/health</string>
+    <string name="url.net">/companies/:company_id/cages/:allocation_id/netcheck</string>
+    
+    <!-- Splash -->
+    <string name="splash.loading">Loading&#8230;</string>
+    <string name="splash.no_internet">No internet connection</string>
+    <string name="splash.user_error">Failed to download users</string>
+    <string name="splash.cage_error">Failed to download containers</string>
+    <string name="splash.try_again">Try Again</string>
+    
+    <!-- Login -->
+    <string name="login.usernname">Username</string>
+    <string name="login.password">Password</string>
+    <string name="login.wait.title">Please wait</string>
+    <string name="login.wait.message">Sending data&#8230;</string>
+    <string name="login.error">Failed to authenticate</string>
+    <string name="login.error.server">Server failed to authenticate</string>
+    
+    <!-- Pin -->
+    <string name="pin.enter">Enter PIN</string>
+    <string name="pin.wrong">Wrong PIN. Try again.</string>
+    <string name="pin.change.no_user">Please select a user first</string>
+    <string name="pin.change.no_internet">No internet connection.</string>
+    <string name="pin.change.first">Enter new PIN</string>
+    <string name="pin.change.second">Enter new PIN again</string>
+    <string name="pin.change.no_match">PIN numbers do not match. Try again.</string>
+    <string name="pin.change.start">Sending new PIN to server</string>
+    <string name="pin.change.done">Your PIN changed</string>
+    <string name="pin.change.failed">Failed to change PIN</string>
+     
+    <!-- Synchronise -->
+    <string name="sync.now">Synchronise now</string>
+    <string name="sync.pending">request(s) in queue.</string>
+    <string name="sync.started">Synchronisation started</string>
+    <string name="sync.details">Log details&#8230;</string>
+    <string name="sync.no_internet">No internet connection</string>
+    <string name="sync.logged">The list of requests has been sent to Android log.</string>
+    
+    <!-- Settings menu -->
+    <string-array name="settings_options">
+        <item>Change PIN</item>
+        <item>Attach to farm</item>
+        <item>Cancel</item>
+        <!-- 
+        <item>Log out</item>
+         -->
+    </string-array>
+
+    <!-- Home menu -->
+    <string name="userlist.title">Select user</string>
+    <string name="feedlist.title">Select Feed</string>
+
+    <!-- Home menu -->
+    <string name="home.environmental">MEASUREMENTS</string> <!-- ENVIRONMENTAL MEASUREMENTS -->
+    <string name="home.cages">CONTAINERS</string>
+    
+    <!-- Environmental-measurements menu -->
+    <string name="environment.temperature">TEMPERATURE</string>
+    <string name="environment.oxygen">OXYGEN</string>
+    
+    <!-- Cage menu -->
+    <string name="cage.feed">FEED</string>
+    <string name="cage.mortalities">MORTALITY</string>
+    <string name="cage.net">NET</string>
+    <string name="cage.environmental">MEASUREMENTS</string>
+    <string name="cage.health">HEALTH</string>
+    
+    <!-- Enter oxygen-temperature -->
+    <string name="enter.oxygen_title">WATER OXYGEN</string>
+    <string name="enter.oxygen_units">mg/L</string>
+    <string name="enter.temperature_title">WATER TEMPERATURE</string>
+    <string name="enter.temperature_units">&#x2103;</string>
+    <string name="enter.temperature_units_F">&#x2109;</string>
+
+    <!-- Net health -->
+    <string name="net_health.subheader">NET ASSESMENT</string>
+    <string name="net_health.non">LOW</string>
+    <string name="net_health.moderate">MODERATE</string>
+    <string name="net_health.hign">HIGH</string>
+    
+    <!-- Feed -->
+    <string name="feed.before">FISH POSITION AT START OF FEEDING</string>
+    <string name="feed.after">FISH POSITION AT END OF FEEDING</string>
+    <string name="feed.approved">FED/APPROVED</string>
+    <string name="feed.used">Feed  used</string>
+    <string name="feed.bottom">BOTTOM</string>
+    <string name="feed.middle">MIDDLE</string>
+    <string name="feed.top">TOP</string>
+    <string name= "feed.units">kg</string>
+    <string name= "feed.units_lb">lb</string>
+
+    <!-- Feed -->
+    <string name="mortalities.subheader">DEAD FISH</string>
+    
+    <!-- Health risk -->
+    <string name="health.subheader">HEALTH RISK</string>
+    <string name="health.non">NON</string>
+    <string name="health.moderate">MODERATE</string>
+    <string name="health.high">HIGH</string>
+    
+    <!-- Select farm -->
+    <string name="selectFarm.wait">Please wait</string>
+    <string name="selectFarm.error">An error occurred</string>
+    <string name="selectFarm.ok">Farm changed</string>
+    <string name="selectFarm.failed">Failed to change farm</string>
+    
+    <!-- Misc -->
+    <string name="system_info.back">Back</string>
+    <string name="system_info.exception">Throw exception</string>
+    
+</resources>

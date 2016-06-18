@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- ***************************************** -->
+    
+    <!-- Dimensions of header items (back & signut buttons and username) -->
+    <dimen name="headerHeight">50dp</dimen>
+    
+    <!-- Dimensions of navigation arrows (left-right) on scroll views -->
+    <dimen name="navArrow">50dp</dimen>
+    <dimen name="emptyBottomBar">10dp</dimen>
+    <dimen name="roundIcons">35dp</dimen>
+
+    <!-- Padding around various images --> 
+    <dimen name="mainMenuPad">25dp</dimen> <!-- Large icons at home, environmental etc -->
+    <dimen name="cageViewPad">15dp</dimen>
+    <dimen name="plusMinusPad">15dp</dimen>
+    <dimen name="pad_OK">5dp</dimen>
+    
+    <!-- Text sizes -->
+    <dimen name="textSize1">10sp</dimen>
+    <dimen name="textSize2">20sp</dimen>
+    <dimen name="textSize3">30sp</dimen>
+    <dimen name="textSize4">40sp</dimen>
+    <dimen name="textSize5">60sp</dimen>
+    
+    <!-- PIN -->
+    <dimen name="pin_OK">70sp</dimen>
+    
+    <!-- Affects "enter" pages with empty space at the left and right. Fish level, health risk -->
+    <dimen name="blankViewWidth">30dp</dimen>
+    
+    <!-- User-select list -->
+    <dimen name="userWidth">40dp</dimen>
+    
+    <!-- The net-health circle -->
+    <dimen name="circleSmall">20dp</dimen>
+    <dimen name="circleMedium">30dp</dimen>
+    <dimen name="circleLarge">40dp</dimen>
+    
+    <!-- The mortalitiy and PIN number boxes. Due to the unconventional design
+         we need to hard-code some sizes.
+         anchorSize: the margin between top and bottom row of numbers
+         numberBoxSize: the size (width-height) of the number boxes
+         deleteBoxHeight: twice the size of the numberBoxSize + anchorSize
+         numpadOffset: the size of the mdpi "delete" image in pixels PLUS an arbitrary
+                       offset to the left. Try and error in many devices
+         deleteBoxMargin: numpadOffset - anchorSize
+         numberBoxText: font size
+         -->
+    <dimen name="anchorSize">5dp</dimen>
+    <dimen name="numberBoxSize">55dp</dimen>
+    <dimen name="deleteBoxHeight">115dp</dimen>
+    <dimen name="numpadOffset">130dp</dimen>
+    <dimen name="deleteBoxMargin">-125dp</dimen>
+    <dimen name="numberBoxText">30sp</dimen>
+    
+</resources>

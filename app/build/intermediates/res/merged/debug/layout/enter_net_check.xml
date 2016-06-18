@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    style="@style/globalBackground" >
+
+    <!-- Header -->
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+    
+    <!-- Sub-header -->
+    <include
+        android:id="@+id/subheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        layout="@layout/common_subheader" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/subheader"
+        android:layout_alignParentBottom="true" >
+        
+        <!-- The submit button -->
+	    <ImageView
+	        android:id="@+id/btSubmit"
+	        style="@style/stretchedImage"
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:onClick="onClickSubmit"
+	        android:background="@drawable/border_left_right"
+	        android:src="@drawable/ok_dim" />
+	    
+	    <!-- ********** Left-side (clogg risk) ********** -->
+	    <!-- Anchor -->
+        <View
+            android:id="@+id/anchorLeft"
+            android:layout_height="3dp"
+            android:layout_width="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/btSubmit"
+            android:layout_centerVertical="true"
+            android:background="#2F2F2F" />
+        
+        <!-- The large clogg-risk image -->
+        <ImageView
+            style="@style/stretchedImage"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/btSubmit"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/anchorLeft"
+            android:padding="5dp"
+            android:src="@drawable/clogg_risk" />
+        
+        <!-- The three "clogg" values -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/btSubmit"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/anchorLeft" 
+            android:baselineAligned="false" >
+            
+            <FrameLayout
+                android:id="@+id/textNetClogg1"
+                android:onClick="onClickedClogg"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:background="@drawable/border_right"
+                android:layout_weight="1.00" >
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_small" />
+                <TextView
+                    style="@style/textSmall"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/net_health.non" />
+            </FrameLayout>
+            
+            <FrameLayout
+                android:id="@+id/textNetClogg2"
+                android:onClick="onClickedClogg"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:background="@drawable/border_right"
+                android:layout_weight="1.00" >
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_medium" />
+                <TextView
+                    style="@style/textSmall"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/net_health.moderate" />
+            </FrameLayout>
+            
+            <FrameLayout
+		        android:id="@+id/textNetClogg3"
+		        android:onClick="onClickedClogg"
+			    android:layout_height="match_parent"
+			    android:layout_width="0dp"
+			    android:layout_weight="1.00" >
+			    <ImageView
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:layout_gravity="center"
+			        android:src="@drawable/circle_large" />
+			    <TextView
+			        style="@style/textSmall"
+			        android:layout_height="match_parent"
+			        android:layout_width="match_parent"
+			        android:gravity="bottom|center_horizontal"
+			        android:text="@string/net_health.hign" />
+            </FrameLayout>
+            
+        </LinearLayout>
+        
+        <!-- ********** Right-side (loss risk) ********** -->
+        <!-- Anchor -->
+        <View
+            android:id="@+id/anchorRight"
+            android:layout_height="3dp"
+            android:layout_width="0dp"
+            android:layout_toRightOf="@id/btSubmit"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#2F2F2F" />
+        
+        <!-- The large clogg-risk image -->
+        <ImageView
+            style="@style/stretchedImage"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_toRightOf="@id/btSubmit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/anchorRight"
+            android:padding="5dp"
+            android:src="@drawable/loss_risk" />
+        
+        <!-- The three "loss" values -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_toRightOf="@id/btSubmit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/anchorRight" 
+            android:baselineAligned="false" >
+            
+            <FrameLayout
+                android:id="@+id/textNetLoss1"
+                android:onClick="onClickedLoss"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:background="@drawable/border_right"
+                android:layout_weight="1.00" >
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_small" />
+                <TextView
+                    style="@style/textSmall"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/net_health.non" />
+            </FrameLayout>
+            
+            <FrameLayout
+                android:id="@+id/textNetLoss2"
+                android:onClick="onClickedLoss"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:background="@drawable/border_right"
+                android:layout_weight="1.00" >
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_medium" />
+                <TextView
+                    style="@style/textSmall"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/net_health.moderate" />
+            </FrameLayout>
+            
+            <FrameLayout
+                android:id="@+id/textNetLoss3"
+                android:onClick="onClickedLoss"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1.00" >
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/circle_large" />
+                <TextView
+                    style="@style/textSmall"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="@string/net_health.hign" />
+            </FrameLayout>
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

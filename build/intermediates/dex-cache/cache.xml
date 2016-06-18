@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/net.hockeyapp.android/HockeySDK/3.5.0/1624c0039a56f9cc45915def1632c225326c3c03/HockeySDK-3.5.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1624c0039a56f9cc45915def1632c225326c3c03">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/HockeySDK-3.5.0_745f5b1a4b93409305a2638933fff90af135d36d.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.2.9/ff5b0a523912a9f6b87cd5a9d853109f5d213905/aws-android-sdk-ddb-2.2.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ff5b0a523912a9f6b87cd5a9d853109f5d213905">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/aws-android-sdk-ddb-2.2.9_5be09ecf8738487a10a64c79e371f3cd3c2e8997.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.2.9/ff5b0a523912a9f6b87cd5a9d853109f5d213905/aws-android-sdk-ddb-2.2.9.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ff5b0a523912a9f6b87cd5a9d853109f5d213905">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/aws-android-sdk-ddb-2.2.9_5be09ecf8738487a10a64c79e371f3cd3c2e8997.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/net.hockeyapp.android/HockeySDK/3.5.0/1624c0039a56f9cc45915def1632c225326c3c03/HockeySDK-3.5.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1624c0039a56f9cc45915def1632c225326c3c03">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/HockeySDK-3.5.0_745f5b1a4b93409305a2638933fff90af135d36d.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0_4dd2f64d59f3e2ff6b7809806a47e735fd6be51d.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.2.9/7443aaa0bf4e865b734c9505a732c16bea4701eb/aws-android-sdk-s3-2.2.9.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7443aaa0bf4e865b734c9505a732c16bea4701eb">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/aws-android-sdk-s3-2.2.9_9b7d9b261300d5416ccf573ab6924340e79d5bd2.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.0_132cd60b129362a685bb6adad69ebfd32c6fd72d.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.0_132cd60b129362a685bb6adad69ebfd32c6fd72d.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/internal_impl-23.1.0_4dd2f64d59f3e2ff6b7809806a47e735fd6be51d.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.2.9/7443aaa0bf4e865b734c9505a732c16bea4701eb/aws-android-sdk-s3-2.2.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7443aaa0bf4e865b734c9505a732c16bea4701eb">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/aws-android-sdk-s3-2.2.9_9b7d9b261300d5416ccf573ab6924340e79d5bd2.jar" />
+    </item>
+    <item
+        jar="/Development/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/support-annotations-23.1.0_54bdea8defe68ca5525a508bcf0f8ffac125aa75.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.2.9/fbcd6eb073e38dfdcaf6a8a68e2533ad72f769a/aws-android-sdk-core-2.2.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0fbcd6eb073e38dfdcaf6a8a68e2533ad72f769a">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/aws-android-sdk-core-2.2.9_76999e611f7fb499a51bcee443e09e731794ebf8.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.2.9/fbcd6eb073e38dfdcaf6a8a68e2533ad72f769a/aws-android-sdk-core-2.2.9.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0fbcd6eb073e38dfdcaf6a8a68e2533ad72f769a">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.2.9_76999e611f7fb499a51bcee443e09e731794ebf8.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f24c0e9c55ea25a13d16659776487681731becc5">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/instant-run_aedec84e014a80470806f31d7c3fd8e79b0996c2.jar" />
+    </item>
+    <item
+        jar="/Development/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0_54bdea8defe68ca5525a508bcf0f8ffac125aa75.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.0_e463bf6293234eea6b9814ff9d345ad863c5e8f3.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.0_e463bf6293234eea6b9814ff9d345ad863c5e8f3.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a49e5bf9d3f3f701d25edeae28118902df04b3a4">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4739ac6e281d2660ff14a70ea43721dcecb596fb.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.9/fab4c593e36d5e615a1ca56da95116be4dc50bd1/aws-android-sdk-cognito-2.2.9.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fab4c593e36d5e615a1ca56da95116be4dc50bd1">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognito-2.2.9_26901f5fa283b972cfe49546d11d00f9157f2692.jar" />
+    </item>
+    <item
+        jar="/Users/diogothomaz/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.9/fab4c593e36d5e615a1ca56da95116be4dc50bd1/aws-android-sdk-cognito-2.2.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fab4c593e36d5e615a1ca56da95116be4dc50bd1">
+        <dex dex="/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/pre-dexed/release/aws-android-sdk-cognito-2.2.9_26901f5fa283b972cfe49546d11d00f9157f2692.jar" />
+    </item>
+
+</items>

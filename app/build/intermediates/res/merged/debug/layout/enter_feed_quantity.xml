@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/globalBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:id="@+id/leftColumn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header"
+        android:background="@drawable/border_right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textCageName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="@drawable/border_bottom"
+            android:textColor="#f0ece0"
+            android:textSize="@dimen/textSize4"
+            android:text="@string/lorem" />
+
+        <!-- Feed approved section at left column -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_bottom" >
+            
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="top|left"
+	            android:textColor="#FAC071"
+	            android:textSize="@dimen/textSize2"
+	            android:text="@string/feed.approved" />
+	
+	        <TextView
+	            android:id="@+id/textFeedApproved"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="bottom|right"
+	            android:textColor="#f0ece0"
+	            android:textSize="@dimen/textSize2"
+	            android:text="@string/lorem" />
+        </FrameLayout>
+        
+        <!-- Feed used section at left column 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="top|left"
+	            android:textColor="#33ABD4"
+	            android:textSize="@dimen/textSize2"
+	            android:text="@string/feed.used" />
+
+	        <TextView
+	            android:id="@+id/textFeedUsed"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:gravity="bottom|right"
+	            android:textColor="#f0ece0"
+	            android:textSize="@dimen/textSize2"
+	            android:text="@string/lorem" />
+        </FrameLayout>
+        -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/leftColumn" >
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textFeedBox">
+
+			<TextView
+                android:id="@+id/textFeedName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/headerHeight"
+                android:gravity="center"
+                android:background="@drawable/border_bottom"
+                android:textColor="#f0ece0"
+                android:textSize="@dimen/textSize3"
+                android:singleLine="true"
+                android:text="@string/lorem" />
+		</FrameLayout>
+
+		<!-- The plus / minus row  -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.00"
+            android:background="@drawable/border_bottom" >
+
+	        <ImageView
+	            android:id="@+id/btDecrement"
+	            style="@style/stretchedImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:padding="@dimen/plusMinusPad"
+	            android:layout_gravity="left"
+	            android:background="@drawable/border_right"
+	            android:src="@drawable/pressable_minus" />
+	        
+	        <!-- The value entered (plus units) -->
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center" >
+	            
+	            <TextView
+	                android:id="@+id/textValueDisplay"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/lorem"
+	                android:textColor="#1FADFF"
+	                android:textSize="@dimen/textSize5" />
+	            
+	            <TextView
+	                android:id="@+id/textUnitsDisplay"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/feed.units"
+	                android:textColor="#F87B6E"
+	                android:textSize="@dimen/textSize3" />
+	        </LinearLayout>
+	        
+	        <ImageView
+	            android:id="@+id/btIncrement"
+	            style="@style/stretchedImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:padding="@dimen/plusMinusPad"
+	            android:layout_gravity="right"
+	            android:background="@drawable/border_left"
+	            android:src="@drawable/pressable_plus"
+				android:adjustViewBounds="true" />
+            
+        </FrameLayout>
+        
+        <ImageView
+            style="@style/stretchedImage"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.00"
+			android:onClick="onClickSubmit"
+			android:padding="@dimen/pad_OK"
+            android:src="@drawable/pressable_ok" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

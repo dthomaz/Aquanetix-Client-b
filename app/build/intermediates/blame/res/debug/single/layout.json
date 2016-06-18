@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/activity_pin.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/activity_pin.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/activity_synchronise.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/activity_synchronise.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/enter_fish_level.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/enter_fish_level.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_select_feed.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_select_feed.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_home.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_home.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/common_user.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/common_user.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/common_cage_summary.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/common_cage_summary.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/activity_system_info.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/activity_system_info.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/enter_health_risk.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/enter_health_risk.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/feed_in_list.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/feed_in_list.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/enter_net_check.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/enter_net_check.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/select_farm.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/select_farm.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/enter_feed_quantity.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/enter_feed_quantity.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_select_cage.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_select_cage.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/enter_float_number.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/enter_float_number.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_select_environmental.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_select_environmental.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/enter_mortalities.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/enter_mortalities.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_environmental.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_environmental.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_select_user.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_select_user.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/common_header.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/common_header.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/menu_cage.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/menu_cage.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/common_environmental.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/common_environmental.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/activity_registration.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/activity_registration.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/common_subheader.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/src/main/res/layout/common_subheader.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/diogothomaz/Documents/Aquanetix/Aquanetix-Client-dev/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    }
+]

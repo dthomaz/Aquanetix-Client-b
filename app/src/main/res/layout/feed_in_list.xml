@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/singleFeed"
+    android:clickable="false"
+    android:touchscreenBlocksFocus="false"
+    android:background="@drawable/pressable">
+
+    <view
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        class="View"
+        android:background="#2F2F2F" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textFeedname"
+        android:text="@string/lorem"
+        style="@style/textLarge"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
